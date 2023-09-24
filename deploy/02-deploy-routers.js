@@ -48,4 +48,4 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     await verify(Lock.address, args);
   }
 };
-module.exports.tags = ["all", "Pool"];
+module.exports.tags = ["all", "Routers"];
